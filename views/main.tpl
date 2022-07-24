@@ -35,10 +35,6 @@
 
   <div> {{ content }} </div>
 
-  <!-- Read text file and write line by line -->
-
-
-
   <script src="/js/main.js"></script>
 </body>
 

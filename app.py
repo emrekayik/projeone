@@ -66,13 +66,14 @@ def do_login():
         student_grade = request.forms.get("ogrenciNotu")
 
         ###
+        """
         df = pd.DataFrame({'Ad': [ad],
                      'Soyad': [soyad],
                      'No': [no],
                      'Puan':[puan],
                      'Sonuç':[sonuc]})
         df_list.append(df)
-
+        """
         ###
         # write get data to text file
         with open("static/data/ogrenci_not_listesi.txt", "a") as myfile:
@@ -88,7 +89,7 @@ def do_login():
 def ogrenci_listele():
     return dict(
         title="Softweal - Matematik Not Sistemi", 
-        content="Matematik Not Sistemi"
+        content=open("static/data/ogrenci_not_listesi.txt", "r").read()
     )
 
 

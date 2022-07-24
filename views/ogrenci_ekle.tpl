@@ -27,8 +27,8 @@
     </section>
 
     <section class="navbar-section green">
-      <a href="..." class="navbar-brand mr-2">Öğrenci Ekle</a>
-      <a href="..." class="btn btn-link">Öğrencileri Göster</a>
+      <a href="/" class="navbar-brand mr-2">Öğrenci Ekle</a>
+      <a href="/ogrenci_listele" class="btn btn-link">Öğrencileri Göster</a>
       <a href="https://github.com/Softweal/projeone" class="btn btn-link">GitHub</a>
     </section>
   </header>
@@ -57,7 +57,7 @@
     </div>
     <button type="submit" class="btn btn-primary">Gönder</button>
   </form>
-
+  <p>!!! Türkçe karakter kullanmayın</p>
 
   <script src="/js/main.js"></script>
 </body>
